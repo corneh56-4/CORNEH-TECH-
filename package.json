@@ -1,12 +1,17 @@
+
 {
-  "name": "BMW-MD",
+  "name": "CORNEH-TECH-",
   "version": "2.0.0",
   "description": "",
-  "main": "body.js",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"node body.js\" \"node app.js\"",
-    "c": "tsc"
+    "test": "node index.js",
+    "s": "node index.js",
+    "index": "pm2 start index.js --attach",
+    "xmd": "pm2 start xmd.js --attach",
+    "c": "tsc",
+    "start": "node index.js" 
   },
   "keywords": [
     "bot",
@@ -15,9 +20,13 @@
     "whatsapp",
     "whatsapp-bot",
     "Ibrahim-Adams"
-  ],
+   ],
   "author": "Ibrahim Adams",
   "license": "ISC",
+  "engines": {
+    "node": "18.x",
+    "npm": ">=9.6.3"
+  },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
@@ -52,7 +61,6 @@
     "link-preview-js": "^3.0.4",
     "moment-timezone": "^0.5.43",
     "mumaker": "^2.0.0",
-    "nayan-media-downloader": "^2.4.5",
     "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
     "node-id3": "^0.2.6",
