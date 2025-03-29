@@ -1,9 +1,9 @@
 
 {
-  "name":"BMW-MD",
-  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "name":"CORNEH-TECH-",
+  "description":"Best whatsapp bot developed by Corneh Tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/0c225f7da5616cdcbec80.jpg",
+  "logo":"https://files.catbox.moe/vry79z.jpg",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -60,14 +60,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-MD",
+      "value":"CORNEH TECH",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/8pb4ok.jpg",
+      "value":"https://files.catbox.moe/vry79z.jpg",
       "required":false
        
      },
@@ -93,7 +93,7 @@
     {
       
     "description":"Owner Number",   
-      "value":"254710772666,254739937062",
+      "value":"254702710132,254795891711",
     "required":false
       
     },
@@ -102,7 +102,7 @@
     
     "desc": "Owner name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "𝗖𝗢𝗥𝗡𝗘𝗛 𝗧𝗘𝗖𝗛 "
   },
     "SESSION_ID":{
     "description":"put your session ID , the code you received from from ibrahim adams site",   
