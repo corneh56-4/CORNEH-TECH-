@@ -172,7 +172,7 @@ function getCurrentDateTime() {
 setInterval(async () => {
     if (conf.AUTO_BIO === "yes") {
         const currentDateTime = getCurrentDateTime(); // Get the current date and time
-        const bioText = `Bwm xmd is online! 🚀\n${currentDateTime}`; // Format the bio text
+        const bioText = `CORNEH TECH is online! 🚀\n${currentDateTime}`; // Format the bio text
         await zk.updateProfileStatus(bioText); // Update the bio
         console.log(`Updated Bio: ${bioText}`); // Log the updated bio
     }
@@ -187,7 +187,7 @@ setInterval(async () => {
 
     await zk.rejectCall(callId, callerId);
     await zk.sendMessage(callerId, {
-      text: "⚠️ Am Bwm xmd, My owner is unavailable try again later"
+      text: "⚠️ Am CORNEH TECH, My owner is unavailable try again later"
     });
   }
 });
@@ -1824,13 +1824,13 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("bwm xmd is connecting in your account...");
+                console.log("CORNEH TECH is connecting in your account...");
             }
             else if (connection === 'open') {
        
                       await zk.groupAcceptInvite("F5BXJci8EDS9AJ6sfKMXIS");
                      
-                console.log("Bwm xmd connected successfully✔");
+                console.log("CORNEH TECH connected successfully✔");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -1876,8 +1876,8 @@ zk.ev.on('group-participants.update', async (group) => {
 ║ Prefix: [ ${prefixe} ]
 ║ Mode: ${md}
 ║ Version: 7.0.8
-║ Bot Name: BWM XMD
-║ Owner: Sir Ibrahim Adams
+║ Bot Name: 𝗖𝗢𝗥𝗡𝗘𝗛 𝗧𝗘𝗖𝗛 
+║ Owner: 𝗖𝗢𝗥𝗡𝗘𝗛 𝗧𝗘𝗖𝗛 
 ╚═════ ❖ •✦
 ╭───────────────━⊷
 
